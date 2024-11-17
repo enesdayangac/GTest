@@ -1,4 +1,4 @@
-#include "whattotest.cpp"
+#include "whattotest.hpp" // We need to include header here! Let us compile it again!
 #include <gtest/gtest.h>
 
 TEST(SquareRootTest, PositiveNos) { 

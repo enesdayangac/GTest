@@ -1,4 +1,4 @@
-#include <math.h>
+#include "whattotest.hpp"
 
 double squareRoot(const double a) {
     double b = sqrt(a);
@@ -7,4 +7,9 @@ double squareRoot(const double a) {
     }else{
         return sqrt(a);
     }
+}
+
+double squareRootOfsquareRoot(const double a)
+{
+    squareRoot(a);
 }
